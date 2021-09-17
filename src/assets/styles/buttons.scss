@@ -1,0 +1,13 @@
+.primary-button {
+   display: block;
+   font-family: $main-font;
+   color: #4283c5;
+   background: #EBF2FA;
+   font-size: 20px;
+   padding: 10px 15px;
+   border-radius: 10px;
+   border: #4283c5 solid 3px;
+   &:hover {
+      background: #a7d4fc;
+   }
+}

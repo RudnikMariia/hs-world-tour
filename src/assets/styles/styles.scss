@@ -1,0 +1,13 @@
+@import "variables";
+@import "buttons";
+
+body {
+  background: $main-color;
+  font-family: $main-font;
+}
+
+.wrapper {
+  width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
