@@ -3,7 +3,7 @@
 export default {
   actions : {
     async fetchParticipants({ commit }) {
-      const res = await fetch("http://localhost:3001/participants?_sort=points&_order=desc&_limit=5")
+      const res = await fetch("http://localhost:3001/participants?_sort=points&_order=desc&_limit=8")
       const teamList = await res.json()
       commit("updateTodos", teamList)
       // commit("updateTodos", await getAll())
